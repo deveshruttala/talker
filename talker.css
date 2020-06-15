@@ -1,0 +1,67 @@
+.sign-in-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    margin-bottom: 30px;
+    padding: 10px 0 10px 0;
+}
+
+h5 {
+    margin-top: 1em;
+}
+
+hr {
+    margin-top: 0.5em;
+}
+
+.nav-link-user, .nav-link-user:hover {
+    color: #ffffff;
+}
+
+.table td {
+    border-top: 0;
+  }
+  
+  .message_header {
+    font-size: 0.8em;
+    margin-top: 1.25rem;
+  }
+  
+  .message_content {
+    font-size: 1em;
+    background-color: #e9ecef;
+    border-top: 1px solid #e9ecef;
+    padding: .375rem .75rem;
+  }
+
+  .table td.group_header {
+	font-size: 1em;
+	background-color: #e9ecef;
+	border-top: 4px solid #ffffff;
+}
+
+.form_posts_content {
+    margin-bottom: .25rem;
+}
+
+.group_content {
+	font-size: 1em;
+	background-color: #e9ecef;
+	border-top: 1px solid #e9ecef;
+	padding: .5rem .75rem;
+	margin-bottom: .25rem;
+}
+
+@media (max-width: 992px) {
+	.group_content {
+		background-color: #ffffff;
+		border:0;
+	}
+	.float-right {
+		float: left!important;
+	}
+}
+
+
+  
